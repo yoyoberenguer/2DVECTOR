@@ -34,14 +34,18 @@ struct vector2d divcomponents(struct vector2d v1, struct vector2d v2);
 // Scaling vectors 
 void scalevector2d_self(float c, struct vector2d *v);
 struct vector2d scalevector2d(float c, struct vector2d *v);
+
+// Dot product 
 float dot(struct vector2d *v1, struct vector2d *v2);
 
 // Normalisation
 void normalize (struct vector2d *v);
 
-// Vector rotation, angle etc
+// Vector rotation
 void vrotate_deg(struct vector2d *v, float deg);
 void vrotate_rad(struct vector2d *v, float rad);
+
+// Vector Angle
 float angle_to(struct vector2d v1, struct vector2d v2);
 float vangle_rad(struct vector2d v);
 float vangle_deg(struct vector2d v);
