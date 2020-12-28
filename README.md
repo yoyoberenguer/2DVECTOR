@@ -3,7 +3,7 @@
 
 Provides vector functions, similar to pygame.math.Vector2  library 
 
-```
+```C
 
 // Vector intialization
 struct vector2d;
